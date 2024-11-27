@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment 1 - 2</title>
+</head>
+<body>
+    <h1 id="welcome" class="fadein">WELCOME</h1>
+    <h1 id="page" class="fadein2">this is all about me.</h1>
+    <hr>
+    <div class="buttoncontainer">
+        <button onclick="location.href='md.html'" class="fadein3">My Dreams</button>
+    </div>
+    <textarea class="fadein4" id="introduction" title="introduction" readonly>
+Hello and welcome to my web page. My name is Saffi Ahmad.               I am a student at Humber College. I am 18 years old.                 My background is Pakistani.              I enjoy playing video games and listening to music.
+    </textarea>
+    <ul id="nav-menu">
+        <li><a href="main.html">About Me</a></li>
+        <li><a href="md.html">My Dreams</a></li>
+      </ul>
+    <img src="giphy (2).gif" alt="" id="arrow" class="fadein8">
+    <h1 id="lm">LIFE MILESTONES</h1>
+    <hr>
+    <div class="about-section">
+    </div>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="academy-celebrate-celebration-267885-1-1024x683.jpg" alt="first" style="width:100%" >
+                <div class="container">
+                    <h2>Graduating from high school</h2>
+                    <p>Graduating from high school in 2024 was a huge milestone for me, a milestone that marked the years of hard work and dedication. To me, this reflection was not just about the academic knowledge I gained, but also the personal growth I've developed through the countless hours of working throughout my years of schooling.</p>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <img src="new-skills-sign.jpg" alt="second" style="width:100%">
+                <div class="container">
+                    <h2>Acquiring new skills</h2>
+                    <p>Throughout my time in high school and college, I've learned a lot of new skills that have helped me grow. Whether it was learning how to use new software, improving my communication skills, or mastering different study techniques, each experience taught me something valuable. These skills have helped me become more confident in my work and prepared me for the challenges ahead.</p>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <img src="OIP (1).jpg" alt="third" style="width:100%">
+                <div class="container">
+                    <h2>Going to college</h2>
+                    <p>I am excited to be accepted into my desired program at Humber College, marking the next step in my education journey. This represents a significant milestone to me in my life because I've spent countless hours researching, preparing, and reflecting on what I truly want to pursue. Being accepted into this program allows me to demonstrate my academic growth. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        window.addEventListener('wheel', function (event) {
+            if (event.deltaY > 0) {
+                window.scrollTo(0, document.body.scrollHeight)
+            } else {
+                window.scrollTo(0, 0);
+            }
+        })
+    </script>
+</body>
+</html>
